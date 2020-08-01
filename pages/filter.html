@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			body {
+				margin: 0;
+				top: 0;
+			}
+
+			.main {
+				width: 100vw;
+				height: 100vh;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+
+			.filter {
+				-webkit-filter: grayscale(100%);
+				/* webkit */
+				-moz-filter: grayscale(100%);
+				/*firefox*/
+				-ms-filter: grayscale(100%);
+				/*ie9*/
+				-o-filter: grayscale(100%);
+				/*opera*/
+				filter: grayscale(100%);
+				filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+				/*ie*/
+				filter: gray;
+				/*ie9- */
+			}
+		</style>
+	</head>
+	<body>
+		<div class="main">
+			<div class="filter">
+				<img width="350px" height="200px" src="https://hollebug.obs.cn-south-1.myhuaweicloud.com/image/resume/keagan-henman-81up3kkBYgE-unsplash.jpg" />
+			</div>
+		</div>
+	</body>
+</html>
